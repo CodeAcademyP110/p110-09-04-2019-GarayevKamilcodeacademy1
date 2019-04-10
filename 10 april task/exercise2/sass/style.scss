@@ -1,0 +1,29 @@
+.container{
+    .row{
+        .headings{
+            position: relative;
+            .heading{
+                top: 0;
+                left: 26%;
+                position: absolute;
+                margin: 0 auto;
+                background: lightgray;
+                width: 600px;
+            }
+        }
+        .tabs{
+            justify-content: center;
+            .tab.active{
+                background: lightgray;
+                color: rgb(46, 45, 45);
+            }
+            .tab{
+                cursor: pointer;
+                border: 2px solid lightgray;
+                width: 100px ;
+                background: rgb(46, 45, 45);
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.container .row .headings {
+  position: relative;
+}
+.container .row .headings .heading {
+  top: 0;
+  left: 26%;
+  position: absolute;
+  margin: 0 auto;
+  background: lightgray;
+  width: 600px;
+}
+.container .row .tabs {
+  justify-content: center;
+}
+.container .row .tabs .tab.active {
+  background: lightgray;
+  color: #2e2d2d;
+}
+.container .row .tabs .tab {
+  cursor: pointer;
+  border: 2px solid lightgray;
+  width: 100px;
+  background: #2e2d2d;
+  color: white;
+}

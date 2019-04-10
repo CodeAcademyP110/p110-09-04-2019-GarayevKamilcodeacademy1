@@ -1,0 +1,16 @@
+.container .row {
+  justify-content: center;
+}
+.container .row .button {
+  transition: all 0.5s ease;
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+  background: #2b2a2a;
+  color: #ababab;
+  border: 2px solid black;
+}
+.container .row .active {
+  background: #ababab;
+  color: #2b2a2a;
+}

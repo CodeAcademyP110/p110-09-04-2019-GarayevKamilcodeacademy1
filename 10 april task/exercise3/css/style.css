@@ -1,0 +1,44 @@
+.container .row .col1 .box {
+  display: inline-block;
+  margin: 0;
+  width: 20px;
+  height: 150px;
+  cursor: pointer;
+}
+.container .row .col1 .pink {
+  background: pink;
+}
+.container .row .col1 .orange {
+  background: orange;
+}
+.container .row .col1 .yellow {
+  background: yellow;
+}
+.container .row .col1 .green {
+  background: green;
+}
+.container .row .col6 {
+  position: relative;
+}
+.container .row .col6 .boxFull.no-width {
+  width: 0px;
+}
+.container .row .col6 .boxFull {
+  transition: all 1s linear;
+  position: absolute;
+  top: 0;
+  width: 600px;
+  height: 616px;
+}
+.container .row .col6 .pink {
+  background: pink;
+}
+.container .row .col6 .orange {
+  background: orange;
+}
+.container .row .col6 .yellow {
+  background: yellow;
+}
+.container .row .col6 .green {
+  background: green;
+}

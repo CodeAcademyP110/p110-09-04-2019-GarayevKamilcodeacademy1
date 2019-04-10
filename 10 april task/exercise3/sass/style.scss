@@ -1,0 +1,51 @@
+.container{
+    .row{
+        .col1{
+            .box{
+                display: inline-block;
+                margin: 0; 
+                width: 20px;
+                height: 150px;
+                cursor: pointer;
+            }
+            .pink{
+                background: pink; 
+            }
+            .orange{
+                background: orange;
+            }
+            .yellow{
+                background: yellow;
+            }
+            .green{
+                background: green;
+            }
+            
+        }
+        .col6{
+            .boxFull.no-width{
+                width: 0px;
+            }
+            .boxFull{
+                transition: all 1s linear;
+                position: absolute;
+                top: 0;
+                width: 600px;
+                height: 616px;
+            }
+            position: relative;
+            .pink{
+                background: pink;
+            }
+            .orange{
+                background: orange;
+            }
+            .yellow{
+                background: yellow;
+            }
+            .green{
+                background: green;
+            }
+        }
+    }
+}
